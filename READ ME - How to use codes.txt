@@ -13,19 +13,4 @@ linearVideoInterpolator.m
 
 videoInterpolatorWithDeformation.m
 	is a matlab function that takes video and output frame rate. It approximates motion between successive frames using Demons algorithm with built-in matlab function. It uses motion field weighted by distance to previous frame of the current frame, to warp the image in order to find unkown frame. It saves video and audio files in different files named sil.avi and sil.wav. You can use "mergeAudioAndVideo.py" script to combine them.
-
-
-
-1) There are also some preprocessed results in this folder. You can find low frame rate videos named as MVI_framerate.MOV
-
-2) Processed images have processed prefix in their names.
-
-3) 'linear' in video file names stands for linear interpolation and 'deform' stands for motion estimation approach.
-
-4) Capital M letter in parantheses stands for that median filtering is also applied.
-
-5) The rest in file names like '15to30' stands for that 15fps video is converted to 30fps video.
-
-PS: 2997 fps stands for 29.97fps in some video file names, not for 2997fps!
-
 	
